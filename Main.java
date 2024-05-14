@@ -1,5 +1,8 @@
-public class koneksi{
-public static void hubungkan(){
-System.out.println("Database Terhubung..");
+import koneksi.Database;
+
+public class Main{
+public static void main(String [] args) {
+System.out.println("Ini Program main");
+Database.hubungkan();
 }
 }
